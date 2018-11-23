@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ACMgnyrTester:jar">
+    <output-path>$USER_HOME$/Downloads/Testing ACMgnyr</output-path>
+    <root id="archive" name="ACMgnyrTester.jar">
+      <element id="module-output" name="ACMgnyrTester" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
