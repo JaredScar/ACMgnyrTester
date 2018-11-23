@@ -188,7 +188,7 @@ public class ACMgnyrTester {
                             scrollPaneTable.setSize(600, 2000);
                             panel.add(scrollPaneTable);
                             resultWindow.add(panel);
-                            //resultWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                            resultWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                             resultWindow.setVisible(true);
                         } else {
                             JOptionPane.showMessageDialog(null, "ALL CORRECT OUTPUTS");
