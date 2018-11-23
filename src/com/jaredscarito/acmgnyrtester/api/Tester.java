@@ -10,7 +10,6 @@ import java.util.Scanner;
  */
 public class Tester {
     private Process process;
-    private String javaFile;
     private String inputFileWeb;
     private String outputFileWeb;
     private InputStream stdout;
@@ -31,7 +30,6 @@ public class Tester {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.javaFile = javaFile;
     }
     public Tester(String javaFile, String inputFileWeb, String outputFileWeb) {
         ProcessBuilder builder = new ProcessBuilder("java", "-jar", javaFile);
@@ -43,7 +41,6 @@ public class Tester {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        this.javaFile = javaFile;
         this.inputFileWeb = inputFileWeb;
         this.outputFileWeb = outputFileWeb;
     }
