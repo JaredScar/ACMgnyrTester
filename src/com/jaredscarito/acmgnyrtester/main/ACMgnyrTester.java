@@ -181,11 +181,9 @@ public class ACMgnyrTester {
                             panel.setLayout(null);
                             panel.setBounds(0, 0, 600, 600);
                             table = new JTable(rows, columns);
-                            table.setPreferredSize(new Dimension(600, 2000));
-                            table.setBounds(0, 0, 600, 2000);
                             table.setCellSelectionEnabled(false);
                             JScrollPane scrollPaneTable = new JScrollPane(table);
-                            scrollPaneTable.setSize(600, 2000);
+                            scrollPaneTable.setSize(595, 575);
                             panel.add(scrollPaneTable);
                             resultWindow.add(panel);
                             resultWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
